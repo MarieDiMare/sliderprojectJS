@@ -1,0 +1,61 @@
+body{
+    background-color: #263a66;
+    display: flex;
+    align-items: center; /*centers verticly*/
+    justify-content: center; /*centers horizontaly*/
+
+}
+.container{
+    display: flex;
+    flex-direction: column ;
+    gap: 50px;
+    align-items: center; /*this three lines align me buttons and frame*/
+}
+
+.top{
+    display:flex;
+    align-items: center; /*centers verticaly*/
+    gap: 50px;
+
+}
+
+
+.arrow{
+    height: 150px;
+    cursor: pointer; /*we can click them so*/
+}
+.left{
+    transform: rotate(180deg);
+}
+
+.frame{
+    width: 800px;
+    height: 500px;
+    overflow: hidden; /*cannot see other pictures cos´ they are overflowed*/
+}
+
+.slider{
+    display:flex;
+    transition: all 1s ease; /*effect for pictures to move*/
+
+}
+.image{ /*so the resolution of the picture is nice and shiny*/
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; /*will cover all frame*/
+}
+.bottom{
+    display: flex; /* so buttons are horizontal*/
+    gap: 30px;
+}
+.button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; /*butonns are circle*/
+    border: 1px solid #f34863;
+    cursor: pointer;
+}
+
+/* Hello, 
+    you are one curious person, huh? 
+    Well, enjoy this circus! */ 
