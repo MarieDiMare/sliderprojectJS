@@ -6,7 +6,8 @@ This is a simple image slider project built using HTML, CSS, and JavaScript. It 
 
 ## Preview
 
-https://bit.ly/SLIDERprojectJS
+[https://bit.ly/SLIDERprojectJS
+](https://sites.google.com/view/mariedimaresfunhouse/funhouse-menu/slider-project-js)
 
 ## Getting Started
 
